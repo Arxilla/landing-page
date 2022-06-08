@@ -19,6 +19,7 @@ body {
     padding: 5px 10px;
     align-items: center;
     border: 1px solid black;
+    
 }
 
 ul {
@@ -42,14 +43,15 @@ a {
     font-style: italic;
     background-color: #820F3C;
     display: flex;
-    padding: 50px;
+    padding: 30px;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+    flex-direction: row;
+    gap:40px;
 }
 
 h1, .item-right {
-    color: whitesmoke;
-    
+    color: whitesmoke;  
 }
 
 h1 {
@@ -69,6 +71,7 @@ p {
 }
 
 img {
+    display: flex;
     width: 400px;
     height: auto;
 }
@@ -84,22 +87,13 @@ button {
 }
 
 .item-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    flex-shrink: 0;
+   
+    
     color: whitesmoke;
 }
 
 .item-right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 100px;
-    margin-bottom: 10px;
-    flex-shrink: 0;
+  
 }
 
 h3 {
@@ -117,7 +111,9 @@ h3 {
 
 .img-section-container {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     padding: 20px;
@@ -150,7 +146,6 @@ footer {
     flex-direction: column;
     margin-bottom: 100px;
     margin-top: 100px;
-    flex-shrink: 0;
     font-style: italic;
     font-weight: lighter;
 }
@@ -179,7 +174,7 @@ footer {
     justify-content: space-around;
     padding: 10px;
     gap: 100px;
-    flex-shrink:0;   
+    flex-grow: 0;
 }
 
 .call-left {
