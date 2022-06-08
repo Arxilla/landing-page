@@ -1,0 +1,97 @@
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item-left, .item-right {
+    border: 3px solid whitesmoke;
+    width: 180px;
+}
+
+.flex-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    border: 3px solid whitesmoke;
+    width: 180px;
+    padding: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    
+}
+
+.flex-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item-2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 60px;
+    background-clip: padding-box;
+    margin: 7px 0 0 5px;
+    float: left;
+    background-size: cover;
+    background-position: center center;
+    border: 3px solid whitesmoke;
+    width: 180px;
+    padding: 10px;
+}
+ .pic {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+     border-radius: 4px;
+
+    }
+
+
+.self {
+    background-color: #820F3C;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.study {
+    
+    width: 380px;
+    padding: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+button {
+    border-radius: 5px;
+    border-color: white;
+    background-color:#3882f6;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    border-style: none;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
